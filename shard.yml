@@ -1,0 +1,13 @@
+name: echo
+version: 0.1.0
+
+authors:
+  - Mario Álvarez <ahoy@m4grio.me>
+
+targets:
+  echo:
+    main: src/echo.cr
+
+crystal: 0.24.2
+
+license: MIT
