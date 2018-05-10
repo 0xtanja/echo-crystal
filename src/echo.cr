@@ -4,7 +4,7 @@ require "./echo/*"
 module Echo
 
   echo_port = ENV["ECHO_PORT"]?.try(&.to_i) || 8018
-  echo_host = ENV["ECHO_HOST"]?.try(&.to_s) || "127.0.0.1"
+  echo_host = ENV["ECHO_HOST"]?.try(&.to_s) || "0.0.0.0"
 
   server = HTTP::Server.new(echo_host, echo_port, [
     HTTP::LogHandler.new,
