@@ -15,6 +15,7 @@ module Echo
 
     TEMPLATE
 
+    ctx.response.status_code = 200
     ctx.response.content_type = "text/plain"
     ctx.response.print response
   end
