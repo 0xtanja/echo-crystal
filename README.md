@@ -6,7 +6,7 @@ This project is intended to be educational, for-research-only and be solving a f
 
 ## Requirements
 
-* [Crystal Lang](https://crystal-lang.org/) >= 0.24.2 (2018-03-10)
+* [Crystal Lang](https://crystal-lang.org/) >= `0.24.2` (2018-03-10)
 
 ## Up and running
 
