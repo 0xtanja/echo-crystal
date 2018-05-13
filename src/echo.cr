@@ -9,10 +9,16 @@ module Echo
   server = HTTP::Server.new(echo_host, echo_port, [
     HTTP::LogHandler.new,
   ]) do |ctx|
-    response = <<-TEMPLATE
-    #{ctx.request.method} #{ctx.request.path} #{ctx.request.version}
-    Request address: #{ctx.request.host}
 
+    headers = ""
+    ctx.request.headers.each do |h, v|
+      headers += "#{h}: #{v[0].to_s}\n"
+    end
+
+    response = <<-TEMPLATE
+    #{ctx.request.method} #{ctx.request.resource} #{ctx.request.version}
+    #{headers}
+    #{HTTP::Params::Body.extract(ctx.request, true)}
     TEMPLATE
 
     ctx.response.status_code = 200
