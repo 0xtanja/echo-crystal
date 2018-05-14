@@ -29,7 +29,7 @@ A Makefile is provided to handle common operations – like running the service.
 | Target | Description | Examples |
 |-|-|-|
 | `run` | Run the service | <pre>$ make run<br>Listening on 0.0.0.0:8018</pre> |
-| `build` | Build the binary | <pre>$ make build<br>crystal build -p -t --verbose --error-trace -o echo src/echo.cr<bbr>cc "${@}" -o /home/...<br>...<br></pre>
+| `build` | Build the binary | <pre>$ make build<br>crystal build -p -t --verbose --error-trace -o echo src/echo.cr<br>cc "${@}" -o /home/...<br>...<br></pre>
 | `clean` | Delete the binary | <pre>$ make clean</pre> |
 
 Or rather using `crystal` binary:
