@@ -1,0 +1,8 @@
+/docs/
+/lib/
+/bin/
+/.shards/
+
+# Binary
+/echo
+/echo.dwarf
