@@ -5,7 +5,9 @@
 </div>
 <br>
 
-This project is intended to be educational, for-research-only and be solving a fictional problem, and is not intended to work on any production environment whatsoever as it can potentially leak private information due to its most basic functionality.
+## About
+
+This project is intended to be educational, for-research-only and solving a fictional problem, and is not intended to work on any production environment whatsoever as it can potentially leak private information due to its most basic functionality.
 
 ## Requirements
 
