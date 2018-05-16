@@ -20,7 +20,7 @@ This project is intended to be educational, for-research-only and solving a fict
 | Configuration | Environmental variable | Purpose | Default |
 |-|-|-|-|
 | Echo host | `ECHO_HOST` | The host Echo will run on | `0.0.0.0` |
-| Echo port | `ECHO_PORT` | The port Echo will linsten to | `8018` |
+| Echo port | `ECHO_PORT` | The port Echo will listen to | `8018` |
 
 ### Running
 
