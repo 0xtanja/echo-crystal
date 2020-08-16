@@ -2,7 +2,7 @@ name: echo
 version: 0.1.0
 
 authors:
-  - Mario Álvarez <ahoy@m4grio.me>
+  - Tanja Álvarez <tanja.alva@gmail.com>
 
 targets:
   echo:
