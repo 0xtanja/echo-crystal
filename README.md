@@ -47,6 +47,6 @@ crystal build src/echo.cr
 ```
 Refer to [Crystal's documentation](https://crystal-lang.org/docs/using_the_compiler/) for more information and help.
 
-## Authors
+## Author
 
-Cats & Foxes 2018
+Tanja Álvarez 2018
